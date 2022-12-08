@@ -17,7 +17,7 @@ const TaskForm = (props: Props) => {
           name="description"
           rows={2}
           placeholder="write a Description"
-          className="form-control mb-3 shadow-none border-0"
+          className="form-control mb-3 shadow-none border-0"cle
         ></textarea>
         <button className="btn btn-primary">
           save
