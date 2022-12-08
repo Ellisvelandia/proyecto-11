@@ -3,13 +3,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Task } from "./interface/Task";
 import TaskList from "./component/TaskList";
+import TaskForm from "./component/TaskForm";
 
 type Props = {
-  title: string;
+  title?: string;
 };
 
 export default function App({ title }: Props) {
-  const [tasks, setTasks] = useState<Task[]>([ 
+  const [tasks, setTasks] = useState<Task[]>([
     {
       id: 1,
       title: "Learn React",
@@ -30,7 +31,16 @@ export default function App({ title }: Props) {
       </nav>
 
       <main className="container p-4">
-       <TaskList tasks={tasks}/>
+        <div className="row">
+          <div className="col-md-4">
+            <TaskForm />
+          </div>
+          <div className="col-md-8">
+            <div className="row">
+              <TaskList tasks={tasks} />
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
