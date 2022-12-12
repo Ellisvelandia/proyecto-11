@@ -1,0 +1,355 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./../Sin título (2).png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: #6036c3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 40px;
+    padding-inline: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    top: 0px;
+}
+
+#my-botui-app {
+    margin-top: 120px !important;
+}
+
+.header * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.firstChild {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.firstChild div .firstChild {
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    margin-right: 14px;
+}
+
+.firstChild .iconActives {
+    display: flex;
+    align-items: center;
+}
+
+.firstChild .iconActives span {
+    width: 10px;
+    height: 10px;
+    background-color: #00ffff;
+    display: flex;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.firstChild .iconActives h2 {
+    font-size: 11px;
+    position: relative;
+    top: 1px;
+    font-weight: 200;
+}
+
+.lastChild h1 {
+    font-size: 14px;
+    margin-top: 11px;
+    font-weight: 500;
+}
+
+.botui-container {
+    font-size: 14px;
+    background-color: #fff0 !important;
+    font-family: "Open Sans", sans-serif;
+}
+
+.botui-message-content {
+    width: auto;
+    max-width: 100% !important;
+    display: inline-block;
+}
+
+.iconBot {
+    width: 53px;
+    height: 50px;
+    padding: 7px;
+    border-radius: 100%;
+    margin-left: -73px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    position: relative;
+    top: -9px;
+    left: -6px;
+}
+
+.botui-messages-container {
+    padding: 10px 20px;
+    margin-left: 34px;
+}
+
+.iconBot2 {
+    width: 30px;
+    height: 30px;
+    background-color: #5f35c0;
+    padding: 7px;
+    border-radius: 100%;
+    margin-left: -68px;
+    margin-top: -8px;
+    position: absolute;
+}
+
+.botui-actions-buttons-button {
+    background-color: #5f35c0;
+    color: white;
+}
+
+.spanNumbers {
+    color: #5f35c0;
+    font-weight: bold;
+}
+
+.contentOption {
+    width: 142px;
+    height: 142px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 14px 0px #0000001f;
+    border-radius: 10px;
+    margin-right: 18px;
+    position: relative;
+    transition: 0.2s;
+    top: 0px;
+    cursor: pointer;
+}
+
+.contentOption:hover {
+    background-color: #ece3ff;
+    top: -5px;
+}
+
+.contentOption img {
+    width: 38%;
+    height: 38%;
+}
+
+.contentOption h2 {
+    text-align: center;
+    font-size: 11px;
+    margin: 9px;
+    margin-bottom: 48px;
+    width: 100%;
+    margin-top: 18px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.contentOption h1 {
+    background-color: #5f35c0;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 6px;
+    margin-left: -99px;
+    margin-top: 44px;
+}
+
+.botui-message-content {
+    padding: 7px 13px;
+    border-radius: 15px;
+    color: #595a5a;
+    background-color: white;
+}
+
+.contentMessages {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.typeOptions2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 333px;
+    justify-content: center;
+    text-align: center;
+    margin-left: -13px;
+}
+
+.typeOptions2 img {
+    width: 50px;
+}
+
+.typeOptions2 .content {
+    width: 142px;
+    height: 142px;
+    background-color: white;
+    box-shadow: 0px 0px 14px 0px #0000001f;
+    margin: 10px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.2s;
+    top: 0px;
+    cursor: pointer;
+}
+
+.typeOptions2 .content:hover {
+    background-color: #ece3ff;
+    top: -5px;
+}
+
+.typeOptions2 .content h1 {
+    font-size: 12px;
+    height: 27px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+}
+
+.typeOptions3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 494px;
+    justify-content: center;
+    text-align: center;
+    margin-left: -12px;
+}
+
+.typeOptions3 img {
+    width: 50px;
+}
+
+.typeOptions3 .content {
+    width: 142px;
+    height: 142px;
+    background-color: white;
+    box-shadow: 0px 0px 14px 0px #0000001f;
+    margin: 10px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.2s;
+    top: 0px;
+    cursor: pointer;
+}
+
+.typeOptions3 .content:hover {
+    background-color: #ece3ff;
+    top: -5px;
+}
+
+.typeOptions3 .content h1 {
+    font-size: 11px;
+    height: 27px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: 100;
+    color: black;
+}
+
+.arrowBack {
+    background-color: #5f35c0;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+    border-radius: 100%;
+    transform: rotate(180deg);
+    padding: 0px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.arrowBack:hover {
+    color: #5f35c0;
+    background-color: rgb(223, 223, 223);
+}
+
+@media screen and (max-width: 420px) {
+    #my-botui-app {
+        width: 96% !important;
+        margin: 0px auto;
+    }
+    .botui-message-content {
+        padding: 7px 13px;
+        border-radius: 15px;
+        color: #595a5a;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    .botui-message-content span {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .contentOption {
+        width: 42%;
+        height: 142px;
+        margin-bottom: 24px;
+    }
+    .contentOption h2 {
+        width: 90%;
+    }
+    .typeOptions2 {
+        width: 100%;
+    }
+    .arrowBack {
+        position: relative;
+        left: -110px;
+    }
+    .typeOptions2 .content {
+        width: 41%;
+    }
+    .typeOptions3 .content {
+        width: 100%;
+    }
+    .typeOptions2 .content h1 {
+        font-size: 11px;
+    }
+}
